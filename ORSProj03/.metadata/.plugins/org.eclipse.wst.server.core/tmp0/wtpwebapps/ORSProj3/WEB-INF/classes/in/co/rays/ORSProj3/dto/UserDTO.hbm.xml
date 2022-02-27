@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 25, 2020 11:25:06 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+ <class name="in.co.rays.ORSProj3.dto.UserDTO" table="St_User">
+        <id name="id" type="long">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="firstName" type="java.lang.String">
+            <column name="FIRST_NAME" />
+        </property>
+        <property name="lastName" type="java.lang.String">
+            <column name="LAST_NAME" />
+        </property>
+                <property name="login" type="java.lang.String">
+            <column name="LOGIN" />
+        </property>
+                <property name="password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="dob" type="java.util.Date">
+            <column name="DATE_OF_BIRTH" />
+        </property> 
+        <property name="mobileNo" type="java.lang.String">
+            <column name="MOBILE_NO" />
+        </property>
+        <property name="roleId" type="long">
+            <column name="ROLE_ID" />
+        </property>
+        <property name="unSuccessfulLogin" type="int">
+            <column name="UNSUCCESSFUL_LOGIN" />
+        </property>
+        <property name="gender" type="java.lang.String">
+            <column name="GENDER" />
+        </property>        	
+        <property name="lastLogin" type="java.sql.Timestamp">
+            <column name="LAST_LOGIN" />
+        </property>
+                <property name="lock" type="java.lang.String">
+            <column name="USER_LOCK" />
+        </property>
+        <property name="registeredIP" type="java.lang.String">
+            <column name="REGISTERED_IP" />
+        </property>
+        <property name="lastLoginIP" type="java.lang.String">
+            <column name="LAST_LOGIN_IP" />
+        </property>
+                <property name="createdBy" type="java.lang.String">
+            <column name="CREATED_BY" />
+        </property>
+        <property name="modifiedBy" type="java.lang.String">
+            <column name="MODIFIED_BY" />
+        </property>
+        <property name="createdDateTime" type="java.sql.Timestamp">
+            <column name="CREATED_DATETIME" />
+        </property>
+        <property name="modifiedDateTime" type="java.sql.Timestamp">
+            <column name="MODIFIED_DATETIME" />
+        </property>
+    </class>
+</hibernate-mapping>

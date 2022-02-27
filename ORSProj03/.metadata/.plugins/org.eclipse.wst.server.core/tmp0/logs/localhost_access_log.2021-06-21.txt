@@ -1,0 +1,10 @@
+127.0.0.1 - - [21/Jun/2021:20:05:30 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [21/Jun/2021:20:09:09 +0530] "GET /ORSProj3/ HTTP/1.1" 200 1554
+0:0:0:0:0:0:0:1 - - [21/Jun/2021:20:09:11 +0530] "GET /ORSProj3/img/455165.jpg HTTP/1.1" 200 172450
+0:0:0:0:0:0:0:1 - - [21/Jun/2021:20:09:11 +0530] "GET /ORSProj3/img/customLogo.png HTTP/1.1" 200 17583
+0:0:0:0:0:0:0:1 - - [21/Jun/2021:20:09:12 +0530] "GET /ORSProj3/img/logo.png HTTP/1.1" 200 19649
+0:0:0:0:0:0:0:1 - - [21/Jun/2021:20:09:38 +0530] "GET /ORSProj3/WelcomeCtl HTTP/1.1" 200 3666
+0:0:0:0:0:0:0:1 - - [21/Jun/2021:20:10:01 +0530] "GET /ORSProj3/UserRegistrationCtl HTTP/1.1" 200 8019
+0:0:0:0:0:0:0:1 - - [21/Jun/2021:20:10:01 +0530] "GET /resources/demos/style.css HTTP/1.1" 404 1107
+0:0:0:0:0:0:0:1 - - [21/Jun/2021:20:10:34 +0530] "GET /ORSProj3/ForgetPasswordCtl HTTP/1.1" 200 4712
+0:0:0:0:0:0:0:1 - - [21/Jun/2021:20:10:44 +0530] "GET /ORSProj3/LoginCtl HTTP/1.1" 200 5482
